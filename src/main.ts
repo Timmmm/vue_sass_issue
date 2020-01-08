@@ -1,6 +1,11 @@
 import Vue from "vue";
 import App from "./App.vue";
 
+import "./theme.scss";
+import ElementUI from "element-ui";
+
+Vue.use(ElementUI);
+
 Vue.config.productionTip = false;
 
 new Vue({
